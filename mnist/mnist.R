@@ -1,9 +1,7 @@
 #Assignment - MNIST dataset
-#Submitted By: Mohit Rathore, Roll Number - DDA1710238
 
 #-------------------------------------------Data Sourcing------------------------------------------------------------
 #Loading Neccessary libraries
-setwd("/media/newhd/Data Science/PGDDA IIITB Docs/Course4_PredictiveAnalytics2/Support Vector Machines - Assignment")
 library(kernlab)
 library(readr)
 library(caret)
