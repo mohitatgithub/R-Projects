@@ -1,6 +1,5 @@
 #Car Price Assignment
 #------------------------------------------Data Sourcing -----------------------------------------------------
-setwd("/media/newhd/Data Science/PGDDA IIITB Docs/Course3_PredictiveAnalytics1/Assignment-LinearRegression")
 library(ggplot2)
 library(dplyr)
 library(tidyr)
@@ -337,21 +336,6 @@ r <- cor(cars_test$price,cars_test$test_price_stepAIC)
 #Calculating R squared by squaring correlation
 rsquared <- cor(cars_test$price,cars_test$test_price_stepAIC)^2
 #Checking R-squared
-rsquared #0.8186977, Disappointing but I also checked rsquared for other models above(2-28), it fluctuates between .81 & .83
-
-#---------------------------------------------------Conclusion--------------------------------------------------------------
-#I used Stepwise Selection method followed by backward selection, all models gave an accuracy between 81-83% on test data with 70,30 split
-
-#Below was performance of final model on training & testing data:
-
-#Adjusted R-squared: Training Data:0.9559, Testing Data:0.8186977
-
-#Reduced independent variables from 75 tp 13 with minor Adjusted R Squared change from 0.9738 to 0.9559 on training data
-
-#Most significant variables found which affect american car prices were: 
-#manufacturerbmw,manufacturermitsubishi,aspiration,peakrpm,enginetyperotor,manufacturerjaguar,manufacturerbuick,stroke,
-#enginelocation,enginetypeohcf,drivewheelrwd,carwidth,enginesize
-
-
+rsquared #0.8186977
 
 
