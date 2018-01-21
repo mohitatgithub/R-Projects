@@ -1,6 +1,6 @@
 #Amazon Review Case Study
 #Note: We have divided whole analysis in Steps mentioned in comments, all questions are answered at end using analysis results from these steps
-#Data Sourc: 
+#Data Source: Data taken from http://jmcauley.ucsd.edu/data/amazon/ for product categories Movies and TV, CDs and Vinyl, Kindle Store
 
 #Load SparkR
 library(SparkR)
