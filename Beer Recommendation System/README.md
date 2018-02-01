@@ -1,6 +1,6 @@
 **Problem Statement:**
 
-To build a recommendation system (collaborative) for BeerMart store, where customers will be recommended the beer that they are most likely to buy using given dataset of 4.75 lakh reviews.
+To build a recommendation system (collaborative) for BeerMart store, where customers will be recommended the beer that they are most likely to buy using given dataset of half million beer reviews.
 
 **Goals of Assignment:**
 
